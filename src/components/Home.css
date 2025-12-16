@@ -1,0 +1,51 @@
+.flex {
+  display: flex;
+  border-bottom: 1px solid black;
+  background-color: lightgray;
+}
+.left {
+  flex: 80%;
+  border-right: 1px solid black;
+}
+.right {
+  flex: 20%;
+  background-color: lightgray;
+  text-align: center;
+  border-left: 1px solid black;
+}
+
+.movie {
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.movie img {
+  width: 100%;
+  display: block;
+}
+
+.movieTitle {
+  position: absolute;
+  left: 40%;
+  bottom: 40%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: #00c2ff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  width: 100px;
+}
+.movieTitle:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.left {
+  background-color: #ae00ff;
+  margin: 20px;
+  padding: 20px;
+}
+.left img {
+  width: 300px;
+  height: 400px;
+}

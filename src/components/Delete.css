@@ -1,0 +1,21 @@
+.delete {
+  background-color: lightgray;
+  height: 100vh;
+  padding-top: 10px;
+}
+.deleteInside {
+  background-color: blueviolet;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.deleteInside button {
+  background-color: #00c2ff;
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+}
+.deleteInside button:hover {
+  color: white;
+  cursor: pointer;
+}

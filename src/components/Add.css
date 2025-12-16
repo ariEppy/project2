@@ -1,0 +1,29 @@
+.addClass {
+  background-color: lightgrey;
+  margin-top: 0;
+  padding: 30px;
+  height: 100vh;
+}
+.inside {
+  background-color: blueviolet;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+}
+input {
+  text-align: center;
+}
+textarea {
+  text-align: center;
+}
+.inside button {
+  background-color: #00c2ff;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+}
+.inside button:hover {
+  color: white;
+  cursor: pointer;
+}

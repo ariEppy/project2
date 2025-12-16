@@ -1,0 +1,27 @@
+.header2 {
+  background-color: lightgray;
+
+  border-top: 1px solid black;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.header2 div {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+.header2 img {
+  width: 200px;
+}
+
+.movieTitle {
+  position: absolute;
+  left: 40%;
+  bottom: 40%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: #00c2ff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 100px;
+}

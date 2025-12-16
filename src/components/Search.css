@@ -1,0 +1,51 @@
+.flexSearch {
+  display: flex;
+  background-color: lightgray;
+  height: 100vh;
+}
+.searchLeft {
+  flex: 60%;
+  border-right: 1px solid black;
+  background-color: blueviolet;
+  padding: 40px;
+  margin: 20px;
+}
+.searchRight {
+  flex: 40%;
+  margin: 20px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+.searchRight input {
+  padding: 10px;
+}
+.searchRight ul {
+  width: 200px;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+.searchRight li {
+  border: 1px solid black;
+  width: 190px;
+  text-align: center;
+  margin: auto;
+}
+.searchRight li:hover {
+  cursor: pointer;
+  background-color: rgb(200, 199, 199);
+}
+.searchLeft img {
+  width: 200px;
+}
+.searchRight button {
+  background-color: #00c2ff;
+  border: none;
+  padding: 20px;
+  border-radius: 50%;
+}
+.searchRight button:hover {
+  color: white;
+  cursor: pointer;
+}
